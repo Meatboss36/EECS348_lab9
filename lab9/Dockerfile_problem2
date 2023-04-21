@@ -1,0 +1,4 @@
+FROM gcc:latest
+COPY program2.c .
+RUN gcc -o program2 program2.c
+CMD ["./program2"]
